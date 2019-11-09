@@ -13,16 +13,16 @@ import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
   {
-    path: 'product',
+    path: 'products',
     component: ProductListComponent
   },
   {
-    path: 'product/:id',
+    path: 'products/:id',
     component: ProductPageComponent
   },
   {
     path: '',
-    redirectTo: 'product',
+    redirectTo: 'products',
     pathMatch: 'full'
   }
 ];
